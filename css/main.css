@@ -1,5 +1,30 @@
+#count{
+  display: flex;  /* defaults to row layout */
+  justify-content: center;  /* centers items horizontally in row layout */
+  align-items: center;  /* centers vertically in row layout */
+  font-size:200px;
+}
+.parent{
+  display: flex;  /* defaults to row layout */
+  justify-content: center;  /* centers items horizontally in row layout */
+	align-items: center;  /* centers vertically in row layout */
+}
+
+input{
+    margin: 6px;
+    width:30%;
+    font-size:100px;
+    border-radius:6px;
+    border-width:medium;
+    text-align:center;
+}
+
 button{
   border-color:black;
   background-color:white;
+  border-radius:6px;
+  border-width:medium;
   color:grey;
+  padding:1px 30px;
+  font-size:100px;
 }
